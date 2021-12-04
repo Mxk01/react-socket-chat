@@ -1,0 +1,29 @@
+.sidebar__container
+{
+    /* flex:.2; */
+    width:17vw;
+    height:100vh;
+    background: rgb(71, 71, 200);
+ 
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    padding:1.3rem;
+}
+.sidebar__options 
+{
+
+    margin-top:3rem;
+    cursor: pointer;
+}
+
+.sidebar__input 
+{
+    background-color: transparent;
+    border:0;
+    border-bottom:solid white 2px;
+    width:15vw;
+    outline: none;
+    font-size:.8rem;
+    color:white;
+    font-smooth: always;
+}

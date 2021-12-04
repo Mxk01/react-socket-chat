@@ -1,0 +1,42 @@
+.user__avatar
+{
+    width:76px;
+    height:76px;
+    border-radius: 50%;
+    object-fit: cover;
+    /* border:3px solid rgb(241, 255, 115); */
+}
+
+.user__status 
+{
+    position:relative;
+    background: rgb(86, 255, 19);
+   border:4px solid     rgb(19, 19, 19);
+
+    color:transparent;
+    border-radius: 50%;
+    width:10px !important;
+    height:10px !important;
+    left:50px;
+    top:-18px;
+    
+}
+
+.user__container
+{
+    display:flex;
+    padding-left:20px;
+    padding-top:10px;
+    background-color:rgb(19, 19, 19);
+    margin-top:1rem;
+    border-radius:1.5rem;
+    box-shadow: 4px 4px 11px 2px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+}
+
+.user__text
+{
+    margin-left:10px;
+    
+}
+ 

@@ -1,0 +1,32 @@
+ .login__form
+ {
+     height:100vh;
+     width:100vw;
+     display:flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     background:url('https://i.imgur.com/L2LbB7Q.png');
+    }
+
+ .login__input
+ {
+     margin-top:50px;
+     margin-bottom:40px;
+ }
+
+.login__title
+{
+    font-size: 3rem;
+    background: -webkit-linear-gradient(rgb(12, 227, 255), rgb(92, 149, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom:30px;
+}
+
+.login__form > img 
+
+{
+    width:250px;
+    height:250px;
+}
